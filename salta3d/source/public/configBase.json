@@ -1,0 +1,535 @@
+{
+  "defaultMarkerColor": "#0532ff",
+  "customDbApiUrl": "http://localhost:3001",
+  "categories": [
+    {
+      "id": "Information",
+      "title": "Información",
+      "path": "information",
+      "url": ""
+    },
+    {
+      "id": "Buildable",
+      "title": "Potencial Constructivo",
+      "path": "buildable",
+      "url": ""
+    },
+    {
+      "id": "Transfer",
+      "title": "Transferencia de Potencial Constructivo",
+      "path": "transfer",
+      "url": ""
+    },
+    {
+      "id": "Report",
+      "title": "Reportes",
+      "path": "report",
+      "url": ""
+    },
+    {
+      "id": "PrivateWorks",
+      "title": "Obras Privadas",
+      "path": "privateWorks",
+      "url": ""
+    },
+    {
+      "id": "LayerGroup",
+      "title": "Capas",
+      "path": "layerGroups",
+      "url": ""
+    },
+    {
+      "id": "Normative",
+      "title": "Normativas",
+      "path": "normative",
+      "url": ""
+    },
+    {
+      "id": "Tutorial",
+      "title": "Tutorial",
+      "path": "tutorial",
+      "url": ""
+    }
+  ],
+  "information": [
+    {
+      "id": "CadastreSearch",
+      "title": "Consulta de Catastro",
+      "color": "#1976d2",
+      "info": "Permite realizar búsquedas catastrales por número de catastro o número de cuenta."
+    },
+    {
+      "id": "BasicData",
+      "title": "Datos Básicos",
+      "color": "#34485e",
+      "info": "Esta es aportada por distintas fuentes. Si los datos plasmados no coinciden con la realidad, se solicita ratificarlos ante dicho organismo."
+    }
+  ],
+  "normative": [
+    {
+      "id": "CPUA_Doc",
+      "title": "Código de Planeamiento Urbano Ambiental - CPUA",
+      "description": "Rige el ordenamiento territorial y la gestión urbana en el Municipio de Salta.",
+      "color": "#e20613",
+      "link": [
+        {
+          "text": "Código de Planeamiento Urbano Ambiental II (2025) - Oficial Municipio",
+          "url": "https://municipalidadsalta.gob.ar/wp-content/uploads/2026/01/1.CODIGO-PLANEAMIENTO%202025-VERSION-PARA-USO.pdf"
+        },
+        {
+          "text": "Código de Planeamiento Urbano Ambiental (C.P.U.A.) (2010)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/2.CPUA_Compendio-ENERO-2020.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ZoningMap",
+      "title": "Plano de Zonificación de Usos de Suelos",
+      "description": "Planos de zonificación urbana generales y específicos del Área Centro.",
+      "color": "#18b596",
+      "link": [
+        {
+          "text": "Descargar Plano General (Visor Drive)",
+          "url": "https://drive.google.com/file/d/1FzWJKt2BU5EMTwlYg1AUiHRaqShj0zPT/view?usp=sharing"
+        },
+        {
+          "text": "1.2 Zonificación Área Centro Municipalidad (PDF)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/1.2-Zonificacion-Area-Centro-Municipalidad.pdf"
+        },
+        {
+          "text": "1.3 Zonificación Área Centro CoPAUPS (PDF)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/1.3-Zonificacion-Area-Centro-CoPAUPS.pdf"
+        },
+        {
+          "text": "1.1 Zonificación Mapa General 2018 (PDF)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/1.1-Zonificacion-Mapa-general-2018.pdf"
+        }
+      ]
+    },
+    {
+      "id": "SheetsAndGraphics",
+      "title": "Planillas y Gráficos",
+      "description": "Planillas y gráficos del código en alta calidad desde la carpeta oficial.",
+      "color": "#f39c12",
+      "link": [
+        {
+          "text": "Carpeta de Drive - Planillas y gráficos en alta calidad",
+          "url": "https://drive.google.com/drive/folders/1xMki0MXyfXI-_Oq0h6ruOiQrz3ehl0Bc?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "id": "Urban Heritage",
+      "title": "Patrimonio",
+      "description": "Normativas del Área Centro, normativas de CoPAUPS y formularios de solicitud.",
+      "color": "#037dbf",
+      "link": [
+        {
+          "text": "ÁREA CENTRO (MUNICIPALIDAD DE SALTA)"
+        },
+        {
+          "text": "4.1. ANEXO 1 Normativa",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.1.-ANEXO-1-Normativa..pdf"
+        },
+        {
+          "text": "4.2. Sección C",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.2.-Secci%C3%B2n-C..pdf"
+        },
+        {
+          "text": "4.3. Sección B",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.3.-Secci%C3%B2n-B..pdf"
+        },
+        {
+          "text": "4.4. Sección E",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.4.-Secci%C3%B2n-E..pdf"
+        },
+        {
+          "text": "4.5. Sección D",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.5.-Secci%C3%B2n-D..pdf"
+        },
+        {
+          "text": "4.6. Sección H",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.6.-Secci%C3%B2n-H..pdf"
+        },
+        {
+          "text": "4.7. ANEXO 2 Parque San Martín",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.7.-ANEXO-2-Parque-San-Mart%C3%ACn.pdf"
+        },
+        {
+          "text": "4.8. ANEXO 3 Plano Zonificación",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.8.-ANEXO-3-Plano-Zonificaci%C3%B2n.pdf"
+        },
+        {
+          "text": "4.9. ANEXO 4 Bienes Patrimoniales",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.9.-ANEXO-4-Bienes-Patrimoniales.pdf"
+        },
+        {
+          "text": "4.10. ANEXO 5 Usos",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.10.-ANEXO-5-Usos.pdf"
+        },
+        {
+          "text": "4.11. ANEXO 6 Glosario",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/4.11.-ANEXO-6-Glosario.pdf"
+        },
+        {
+          "text": "ÁREA CENTRO (CoPAUPS)"
+        },
+        {
+          "text": "5.1.1. Solicitud C.N.O.A",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.1.1.-Solicitud-C.N.O.A..pdf"
+        },
+        {
+          "text": "5.1.2. Formulario Consulta Previa",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.1.2.-Formuario-Consulta-Previa..pdf"
+        },
+        {
+          "text": "5.1.3. Solicitud Compra Inmueble",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.1.3.-Solicitud-Compra-Inmueble..pdf"
+        },
+        {
+          "text": "5.1.4. Incorporación Bien Patrimonial",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.1.4.-Incorporaci%C3%B2n-Bien-Patrimonial.pdf"
+        }
+      ]
+    },
+    {
+      "id": "Cadastre",
+      "title": "Código PRAC - Planchetas y Planillas",
+      "description": "Planchetas catastrales y planillas de manzanas correspondientes al PRAC 2019.",
+      "color": "#9b51e0",
+      "link": [
+        {
+          "text": "PRAC 2019"
+        },
+        {
+          "text": "5.2.4. PRAC Normativa REVISIÓN 1 (PDF)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.4.-PRAC-Normativa-REVISION-1.pdf"
+        },
+        {
+          "text": "5.2.3. Plano Zonificación REVISIÓN 1 (PDF)",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.3.-PLANO-REVISION-1.pdf"
+        },
+        {
+          "text": "PLANCHETAS MANZANAS (PDF)"
+        },
+        {
+          "text": "Sección B",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.1.-SECCION-B.pdf"
+        },
+        {
+          "text": "Sección C",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.2.-SECCION-C.pdf"
+        },
+        {
+          "text": "Sección D",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.3.-SECCION-D.pdf"
+        },
+        {
+          "text": "Sección E",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.4.-SECCION-E.pdf"
+        },
+        {
+          "text": "Sección H",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.5.-SECCION-H.pdf"
+        },
+        {
+          "text": "Sección N",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.1.6.-SECCION-N.pdf"
+        },
+        {
+          "text": "PLANILLAS EXCEL DE MANZANAS"
+        },
+        {
+          "text": "Excel Sección B",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.1.-SECCION-B.pdf"
+        },
+        {
+          "text": "Excel Sección C",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.2.-SECCION-C.pdf"
+        },
+        {
+          "text": "Excel Sección D",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.3.-SECCION-D.pdf"
+        },
+        {
+          "text": "Excel Sección E",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.4.-SECCION-E.pdf"
+        },
+        {
+          "text": "Excel Sección H",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.5.-SECCION-H.pdf"
+        },
+        {
+          "text": "Excel Sección N",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/5.2.2.6.-SECCION-N.pdf"
+        }
+      ]
+    },
+    {
+      "id": "Edification",
+      "title": "Código de Edificación",
+      "description": "Normas y ordenanzas reguladoras de edificación, veredas y corredores.",
+      "color": "#2ecc71",
+      "link": [
+        {
+          "text": "Código de Edificación (2025) - Versión de Uso",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/CODIGO-DE-EDIFICACION-2025-VERSION-PARA-EL-USO.pdf"
+        },
+        {
+          "text": "Ordenanza Nº 16487 (2025) - Boletín Oficial",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/BOLETIN-N%C2%B0-2.747-Fecha-de-Edicion-03-de-Diciembre-2025-EDICION-ESPECIAL-CONTIENE-FIRMA-DIGITAL.pdf"
+        },
+        {
+          "text": "Código de Edificación (2009) - Ordenanza 13.778",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/Ordenanza-13.778%20(C%C3%B3d%20Edific).pdf"
+        },
+        {
+          "text": "Ordenanza 14195 - Corredor Belgrano",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/6.Ord-14195-Corredor-Belgrano.pdf"
+        },
+        {
+          "text": "Ordenanza 16329/24",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/ORDENANZA%2016329_24.pdf"
+        },
+        {
+          "text": "Ordenanza de Veredas",
+          "url": "https://www.colarqsalta.org.ar/public/descargas/normativas/edilicias/10.-Ordenanza-vereda.pdf"
+        }
+      ]
+    },
+    {
+      "id": "Manuals and Instructions",
+      "title": "Manuales e Instructivos",
+      "description": "Acceso directo y guías de uso de la Plataforma Digital de Obras Privadas.",
+      "color": "#e74c3c",
+      "link": [
+        {
+          "text": "ACCESO A LA PLATAFORMA DIGITAL",
+          "url": "https://obrasprivadassalta.com.ar/prof2041wq/"
+        },
+        {
+          "text": "Video Instructivo de la Plataforma (YouTube)",
+          "url": "https://youtu.be/3HtzmDJoyq4"
+        }
+      ]
+    }
+  ],
+  "basicData": [
+    {
+      "title": "Catastro",
+      "fill": "smp",
+      "format": ""
+    },
+    {
+      "title": "Dirección",
+      "fill": "direccion",
+      "format": ""
+    },
+    {
+      "title": "Barrio",
+      "fill": "barrio",
+      "format": ""
+    },
+    {
+      "title": "Tipo de Parcela",
+      "fill": "mvs_tipo",
+      "format": ""
+    },
+    {
+      "title": "Tipo de material de Calles",
+      "fill": "mvs_calle",
+      "format": ""
+    },
+    {
+      "title": "Servicios de Agrotécnica Fueguina (AF)",
+      "fill": "mvs_af_header",
+      "format": ""
+    },
+    {
+      "title": "  • Recolección de residuos",
+      "fill": "mvs_recol",
+      "format": ""
+    },
+    {
+      "title": "  • Tipo de barrido",
+      "fill": "mvs_barrido",
+      "format": ""
+    },
+    {
+      "title": "Alumbrado público",
+      "fill": "mvs_lusal",
+      "format": ""
+    },
+    {
+      "title": "Mantenimiento de Espacios Verdes",
+      "fill": "mvs_ev",
+      "format": ""
+    },
+    {
+      "title": "Presencia de Semáforos",
+      "fill": "mvs_semaforo",
+      "format": ""
+    },
+    {
+      "title": "Propietario",
+      "fill": "owner_name",
+      "format": ""
+    },
+    {
+      "title": "Documento del propietario",
+      "fill": "owner_document",
+      "format": ""
+    },
+    {
+      "title": "CUIT del propietario",
+      "fill": "owner_cuit",
+      "format": ""
+    },
+    {
+      "title": "Distrito ",
+      "fill": "distrito",
+      "format": ""
+    },
+    {
+      "title": "Zonificación de CPUA",
+      "fill": "zoning_distrito",
+      "format": ""
+    },
+    {
+      "title": "F.O.S.",
+      "fill": "zoning_fos",
+      "format": ""
+    },
+    {
+      "title": "F.O.T. Privado",
+      "fill": "zoning_fot_privado",
+      "format": ""
+    },
+    {
+      "title": "F.O.T. Público",
+      "fill": "zoning_fot_publico",
+      "format": ""
+    },
+    {
+      "title": "Altura Máxima",
+      "fill": "zoning_altura_m",
+      "format": " m"
+    },
+    {
+      "title": "Retiro de Fondo",
+      "fill": "zoning_retiro_fondo",
+      "format": ""
+    },
+    {
+      "title": "Retiro de Frente",
+      "fill": "zoning_retiro_frente",
+      "format": ""
+    },
+    {
+      "title": "Criterio",
+      "fill": "zoning_criterio",
+      "format": ""
+    },
+    {
+      "title": "Área",
+      "fill": "zoning_area",
+      "format": ""
+    },
+    {
+      "title": "Rango de Valor del Suelo",
+      "fill": "mvs_valor_rang",
+      "format": ""
+    },
+    {
+      "title": "Latitud",
+      "fill": "latitud",
+      "format": ""
+    },
+    {
+      "title": "Longitud",
+      "fill": "longitud",
+      "format": ""
+    }
+  ],
+  "baseLayers": {
+    "sources": {
+      "capabase_1": {
+        "type": "raster",
+        "tiles": [
+          "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        ],
+        "tileSize": 256
+      },
+      "capabase_2": {
+        "type": "raster",
+        "tiles": [
+          "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
+        ],
+        "tileSize": 256
+      },
+      "capabase_3": {
+        "type": "raster",
+        "tiles": [
+          "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png"
+        ],
+        "tileSize": 256
+      }
+    },
+    "layers": [
+      {
+        "id": "baseLayer_principal",
+        "type": "raster",
+        "source": "capabase_1",
+        "layout": {
+          "visibility": "none"
+        },
+        "paint": {}
+      },
+      {
+        "id": "baseLayer_secundario",
+        "type": "raster",
+        "source": "capabase_2",
+        "layout": {
+          "visibility": "visible"
+        },
+        "paint": {}
+      },
+      {
+        "id": "baseLayer_argenmap",
+        "type": "raster",
+        "source": "capabase_3",
+        "layout": {
+          "visibility": "none"
+        },
+        "paint": {}
+      },
+      {
+        "id": "baseLayer_gris",
+        "type": "raster",
+        "source": "capabase_1",
+        "layout": {
+          "visibility": "none"
+        },
+        "paint": {
+          "raster-saturation": -1
+        }
+      }
+    ],
+    "light": {
+      "anchor": "viewport",
+      "intensity": 0.4,
+      "position": [
+        1.15,
+        210,
+        30
+      ]
+    }
+  },
+  "camera": {
+    "lat": -24.7859,
+    "lng": -65.4117,
+    "zoom": 12,
+    "pitch": 0,
+    "bearing": 0
+  }
+}

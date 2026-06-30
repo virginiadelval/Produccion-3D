@@ -1,0 +1,13 @@
+{
+  "total_mbtiles_unicos": 0,
+  "visibilidad": {
+    "cur3d": {
+      "cantidad": 0,
+      "mbtiles": []
+    },
+    "mapa_interactivo": {
+      "cantidad": 8,
+      "mbtiles": []
+    }
+  }
+}

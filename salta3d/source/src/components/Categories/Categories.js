@@ -1,0 +1,44 @@
+import React, { useEffect } from 'react'
+
+import PropTypes from 'prop-types'
+
+import { actions as basicDataActions } from 'state/ducks/basicData'
+
+import { Box } from '@mui/material'
+
+import { useDispatch, useSelector } from 'react-redux'
+
+import Category from './Category'
+import styles from './styles'
+
+const Categories = ({ data }) => {
+  const dispatch = useDispatch()
+
+  const parcelCoords = useSelector((state) => state.map.selectedCoords)
+  const seekerSmp = useSelector((state) => state.seeker.place.data.smp)
+
+  // Se obtienen los datos básicos de la parcela seleccionada
+  useEffect(() => {
+    dispatch(basicDataActions.selectedParcel(parcelCoords))
+  }, [parcelCoords, dispatch])
+
+  useEffect(() => {
+    if (seekerSmp) {
+      dispatch(basicDataActions.seekerParcel(seekerSmp))
+    }
+  }, [seekerSmp, dispatch])
+
+  return (
+    <Box sx={styles.options}>
+      {data.map(({ id, title, path, url }) => (
+        <Category key={id} id={id} path={path} title={title} url={url} />
+      ))}
+    </Box>
+  )
+}
+
+Categories.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object).isRequired
+}
+
+export default Categories

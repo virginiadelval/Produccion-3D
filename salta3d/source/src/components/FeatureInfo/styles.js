@@ -1,0 +1,26 @@
+import theme from 'theme'
+
+const styles = {
+  featureInfo: {
+    padding: '0 5px 1px 5px',
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    fontSize: '13px',
+    lineHeight: 1.5
+  },
+  markerPropertiesKey: {
+    fontWeight: 'bold'
+  },
+  markerProperty: {
+    marginTop: '1px',
+    marginBottom: '5px'
+  },
+  ultimaActualizacion: {
+    fontWeight: 'normal'
+  },
+  goContainer: {
+    paddingTop: theme.spacing(2)
+  }
+}
+
+export default styles

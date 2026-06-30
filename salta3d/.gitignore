@@ -1,0 +1,8 @@
+# Exclude backend dependencies and local env files
+backend/node_modules/
+backend/.env
+
+# Ignore node_modules in root if any
+node_modules/
+package-lock.json
+source/package-lock.json
