@@ -358,8 +358,36 @@ const getCamera = () => config.camera
 const getArticlesData = (idArticle) =>
   (config.articles || []).find(({ id }) => id === idArticle)
 
-const getCustomDbApiUrl = () => config.customDbApiUrl || 'http://localhost:3001'
+const getCustomDbApiUrl = () => {
+  const configuredUrl = config?.customDbApiUrl?.trim()
 
+  if (typeof window === 'undefined') {
+    return configuredUrl || 'http://localhost:3001'
+  }
+
+  const isLocalhost = ['localhost', '127.0.0.1', '::1'].includes(
+    window.location.hostname
+  )
+
+  if (configuredUrl) {
+    const normalizedConfiguredUrl = configuredUrl.replace(/\/$/, '')
+
+    if (
+      normalizedConfiguredUrl === 'http://localhost:3001' ||
+      normalizedConfiguredUrl === 'http://127.0.0.1:3001'
+    ) {
+      return isLocalhost ? normalizedConfiguredUrl : ''
+    }
+
+    if (normalizedConfiguredUrl.endsWith('/api')) {
+      return normalizedConfiguredUrl.slice(0, -4)
+    }
+
+    return normalizedConfiguredUrl
+  }
+
+  return isLocalhost ? 'http://localhost:3001' : ''
+}
 export {
   loadAppConfig,
   getCategories,

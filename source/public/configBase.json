@@ -1,6 +1,6 @@
 {
   "defaultMarkerColor": "#0532ff",
-  "customDbApiUrl": "http://localhost:3001",
+  "customDbApiUrl": "/api",
   "categories": [
     {
       "id": "Information",
